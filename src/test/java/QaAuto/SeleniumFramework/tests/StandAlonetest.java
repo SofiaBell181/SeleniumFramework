@@ -21,6 +21,7 @@ public class StandAlonetest {
 
 	public static void main(String[] args) {
 		// All steps witout spliting
+		// New comment
 		String productName = "ADIDAS ORIGINAL";
 		WebDriverManager.chromedriver().setup(); // Downloads & configures correct ChromeDriver
 		WebDriver driver = new ChromeDriver(); // Starts Chrome & returns driver instance
